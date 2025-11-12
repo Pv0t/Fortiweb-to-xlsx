@@ -1,6 +1,6 @@
 >[!IMPORTANT]
 >This repository is no longer maintained. The script has been tested and works with version **7.6.4 FortiWeb**.
-# 1.0 Fortiweb-to-xlsx/json
+# 1.0 Fortiweb to xlsx/json
 ## 1.1 Introduction
 This script is designed to generate a file .xlsx and .json only of the policy configuration giving in as input the fortiweb full backup.
 
