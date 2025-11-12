@@ -1,16 +1,17 @@
 >[!IMPORTANT]
 >This repository is no longer maintained. The script has been tested and works with version **7.6.4 FortiWeb**.
-
-# 1.0 Description
+# 1.0 Fortiweb-to-xlsx/json
+## 1.1 Introduction
 This script is designed to generate a file .xlsx and .json only of the policy configuration giving in as input the fortiweb full backup.
 
-## 1.1 Feature Overview
+## 1.2 Feature Overview
 - **XLSX Output**:  
   The .XLSX output file contains the following columns: Entry, Policy Name, Protected Hostname, VIP Name, VIP, Server Pool, Deployment Mode, Content Routing, Monitor Mode, Load Balancing Algorithm, Health Check, Certificate, Persistence, and X-Forwarded-For/X-Real-IP.
 - **JSON Output**:  
   The .JSON output file contains the complete policy configuration in detail.
 
-# 2.0 Usage
+# 2.0 I/O Interface
+## 2.1 Usage
 1. Export the full backup file (.conf) from the FortiWeb appliance.
 1. Run the script.
 ```powershell
@@ -24,7 +25,7 @@ File Excel: myoutput.xlsx
 >[!NOTE]
 > On the input field, specify the path where the backup file (.conf) is located. If you've executed the script in the same directory as the full backup configuration, you can simply provide the filename. 
 
-## 2.1 Output
+## 2.2 Output
 
 <details>
 
