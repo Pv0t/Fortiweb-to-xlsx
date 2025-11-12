@@ -4,16 +4,16 @@
 ## 1.1 Introduction
 This script is designed to generate a file .xlsx and .json only of the policy configuration giving in as input the fortiweb full backup.
 
-## 1.2 Feature Overview
+## 1.2 Features Overview
 - **XLSX Output**:  
-  The .XLSX output file contains the following columns: Entry, Policy Name, Protected Hostname, VIP Name, VIP, Server Pool, Deployment Mode, Content Routing, Monitor Mode, Load Balancing Algorithm, Health Check, Certificate, Persistence, and X-Forwarded-For/X-Real-IP.
+  The .xlsx output file contains the following columns: Entry, Policy Name, Protected Hostname, VIP Name, VIP, Server Pool, Deployment Mode, Content Routing, Monitor Mode, Load Balancing Algorithm, Health Check, Certificate, Persistence, and X-Forwarded-For/X-Real-IP.
 - **JSON Output**:  
-  The .JSON output file contains the complete policy configuration in detail.
+  The .json output file contains the complete policy configuration in detail.
 
 # 2.0 I/O Interface
 ## 2.1 Usage
 1. Export the full backup file (.conf) from the FortiWeb appliance.
-1. Run the script.
+2. Run the script.
 ```powershell
 PS Desktop> python3 fortiweb_extract.py <INPUT> <OUTPUT>
 
@@ -23,7 +23,7 @@ File Excel: myoutput.xlsx
 ```
 
 >[!NOTE]
-> On the input field, specify the path where the backup file (.conf) is located. If you've executed the script in the same directory as the full backup configuration, you can simply provide the filename. 
+> On the input field, specify the path where the backup file (.conf) is located. If you've executed the script in the same directory where the backup file are located, you can simply provide the filename. 
 
 ## 2.2 Output
 
