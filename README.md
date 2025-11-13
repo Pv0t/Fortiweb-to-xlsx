@@ -27,20 +27,12 @@ File Excel: myoutput.xlsx
 
 ## 2.2 Output
 
-<details>
+![anim](https://github.com/user-attachments/assets/7a20fbf4-e1da-4ed3-83ff-9ad3c1626667)
 
-<summary>This screenshot shows how the .XLSX output file appears.</summary>
-<img width="1721" height="191" alt="xlsxl-file-output" src="https://github.com/user-attachments/assets/56d7fd6d-547a-466e-bac1-ad4e9a98ff8e" />
+### 2.2.1 XLSX Output
+<img width="1892" height="132" alt="xlsx_output" src="https://github.com/user-attachments/assets/9fd6d53d-71f2-4c79-a7e8-5701e629c037" />
 
-</details>
-
-
-
-<details>
-
-<summary>The following screenshot show how the file .JSON appears.</summary>
-<img width="753" height="1652" alt="json-file-output" src="https://github.com/user-attachments/assets/5eecad64-ab5c-4a7f-a426-5bf18a75424d" />
-
-</details>
+### 2.2.2 JSON Output
+<img width="623" height="873" alt="json_output" src="https://github.com/user-attachments/assets/141f187c-abd7-4ade-85fa-5746ef60f23c" />
 
 ---
